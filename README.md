@@ -1,16 +1,16 @@
 # mobx_imc
 
-A new Flutter project.
+Projeto para aprender os conceitos do MobX.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Inicialmente será um contador simples que mudará para calculadora de IMC
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Dart
+- Flutter
+- MobX
+- MobX Codegen
+- Flutter MobX
+- Build Runner
