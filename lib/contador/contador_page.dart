@@ -19,10 +19,27 @@ class ContadorPage extends StatelessWidget {
             const Text(
               'You have pushed the button this many times:',
             ),
-            Observer(builder: (_) => Text(
-              '${controller.counter}',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),)
+            Observer(
+              builder: (_) => Text(
+                '${controller.counter}',
+                style: Theme.of(context).textTheme.headlineMedium,
+              ),
+            ),
+            Observer(
+              builder: (_) {
+                return Text(controller.fullName.first);
+              }
+            ),
+            Observer(
+              builder: (_) {
+                return Text(controller.fullName.last);
+              }
+            ),
+            Observer(
+              builder: (_) {
+                return Text(controller.greetings);
+              }
+            ),
           ],
         ),
       ),
